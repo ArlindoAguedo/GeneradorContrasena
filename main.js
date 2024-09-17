@@ -16,10 +16,9 @@ function generar(){
     for(let i = 0; i < numeroDigitado; i++ ){
 
         let caracterAleatorio = cadenaCaracteres[Math.floor(Math.random() * cadenaCaracteres.length)];
-        console.log(caracterAleatorio);
-        //password += caracterAleatorio;
+        password += caracterAleatorio;
         
     }
 
-    //contrasena.value = password;
+    contrasena.value = password;
 }
